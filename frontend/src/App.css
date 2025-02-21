@@ -1,0 +1,18 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+Footer {
+    margin-top: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    visibility: visible;
+  }
+  Footer:hover {
+    opacity: 0;
+    transform: translateY(100%);
+    visibility: hidden;
+  }
